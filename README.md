@@ -1,25 +1,24 @@
-# Customer Behaviour Analysis Dashboard
+# Ferns & Petals Business Analytics Dashboard
 
 ## Project Overview
 
-The Customer Behaviour Analysis Dashboard is a business intelligence project designed to transform raw transactional data into actionable insights related to customer purchasing patterns, sales performance, profitability, and regional trends.
+The Ferns & Petals Business Analytics Dashboard is a comprehensive business intelligence project designed to analyze sales performance, customer purchasing behavior, product demand, and regional trends using transactional gifting data.
 
-Using Microsoft Excel for data preparation and Microsoft Power BI for visualization, this project delivers an interactive dashboard that enables stakeholders to monitor key business metrics, identify growth opportunities, and make data-driven decisions.
+Built using Microsoft Excel and Microsoft Power BI, the dashboard transforms raw business data into actionable insights that support strategic decision-making, revenue optimization, and customer-focused marketing initiatives.
 
 ---
 
 ## Business Problem
 
-Organizations generate large volumes of transactional data but often struggle to extract meaningful insights from it. Understanding customer behavior, product performance, and revenue patterns is essential for improving marketing effectiveness, optimizing inventory, and increasing profitability.
+Ferns & Petals operates across multiple product categories, occasions, and geographic locations. Understanding customer purchasing behavior and identifying revenue-driving factors is essential for improving profitability and optimizing business operations.
 
-This project addresses these challenges by providing:
+This project aims to answer key business questions such as:
 
-* Customer purchasing behavior analysis
-* Revenue and profit performance tracking
-* Occasion-based sales analysis
-* Geographic sales distribution insights
-* Product performance evaluation
-* Interactive business intelligence reporting
+* Which occasions generate the highest sales?
+* Which products contribute most to revenue?
+* Which cities drive the largest number of orders?
+* How do revenue and profit trends vary over time?
+* What opportunities exist for business growth?
 
 ---
 
@@ -33,42 +32,40 @@ This project addresses these challenges by providing:
 | Average Delivery Time     | 5.53 Days |
 | Average Revenue per Order | $3.5K     |
 
-> Profit was calculated using a 20% profit margin assumption across orders.
+> Profit was calculated using a standardized 20% profit margin assumption.
 
 ---
 
 ## Dashboard Features
 
-### Revenue Analysis
+### Revenue Performance Analysis
 
-* Monitors monthly revenue trends.
-* Identifies peak and low-performing sales periods.
-* Highlights seasonal demand fluctuations.
-* Supports revenue forecasting and planning.
+* Tracks monthly revenue trends.
+* Identifies peak sales periods and seasonal demand patterns.
+* Highlights revenue fluctuations across the business cycle.
 
-### Profit Analysis
+### Profitability Analysis
 
-* Tracks profitability across different periods.
-* Compares revenue and profit performance.
-* Identifies periods with stronger profit generation.
-* Assists in margin optimization decisions.
+* Monitors profit performance over time.
+* Compares revenue and profit growth trends.
+* Supports profitability optimization strategies.
 
 ### Occasion-Based Sales Analysis
 
-Analyzes customer purchasing behavior during special events and occasions.
+Customer purchasing behavior is strongly influenced by gifting occasions.
 
 Top-performing occasions include:
 
 * Anniversary
 * Raksha Bandhan
-* Holi
 * Valentine's Day
+* Holi
 
-Insights reveal strong event-driven purchasing patterns that can support targeted promotional campaigns.
+These occasions account for a significant share of total revenue, demonstrating the importance of event-driven demand.
 
-### Geographic Performance Analysis
+### Geographic Analysis
 
-Evaluates sales distribution across cities.
+Analyzes order distribution and revenue contribution across cities.
 
 Top-performing cities include:
 
@@ -78,54 +75,25 @@ Top-performing cities include:
 
 This analysis helps identify:
 
-* High-value markets
-* Regional demand trends
-* Expansion opportunities
+* High-demand markets
+* Regional growth opportunities
+* Target locations for expansion
 
 ### Product Performance Analysis
 
-Examines revenue contribution across product categories.
+Evaluates product-wise revenue contribution.
 
 Key findings:
 
-* A small group of products contributes the majority of revenue.
-* Several products generate relatively low revenue.
-* Results demonstrate characteristics of the Pareto Principle (80/20 Rule).
-
----
-
-## Dashboard Components
-
-### KPI Cards
-
-* Total Revenue
-* Total Orders
-* Total Profit
-* Average Delivery Time
-* Average Revenue per Order
-
-### Visualizations
-
-* Revenue Trend Analysis (Line Charts)
-* Profit Trend Analysis (Bar Charts)
-* Occasion-wise Sales Distribution (Donut Charts)
-* City-wise Order Analysis (Treemaps)
-* Product Performance Comparisons
-* Interactive Slicers and Filters
-
-### Filters
-
-Users can dynamically analyze data using:
-
-* Month
-* Product Category
-* Occasion
+* A small number of products generate a substantial portion of total revenue.
+* Several products contribute relatively low revenue despite occupying inventory.
+* Product performance follows characteristics of the Pareto Principle (80/20 Rule).
 
 ---
 
 ## Project Workflow
 
-Raw Transactional Data
+Business Data Collection
 ↓
 Data Cleaning & Validation (Excel)
 ↓
@@ -160,87 +128,97 @@ Business Insights & Reporting
 
 ---
 
+## Dashboard Components
+
+### KPI Cards
+
+* Total Revenue
+* Total Orders
+* Total Profit
+* Average Delivery Time
+* Average Revenue per Order
+
+### Visualizations
+
+* Monthly Revenue Trend Analysis
+* Profit Trend Analysis
+* Occasion-wise Revenue Distribution
+* City-wise Order Analysis
+* Product Performance Analysis
+* Interactive Filters and Slicers
+
+### Interactive Filters
+
+* Month
+* Product Category
+* Occasion
+
+---
+
 ## Key Business Insights
 
-### Customer Behavior
+### Customer Purchasing Behavior
 
-* Customer purchases are highly influenced by special occasions and festivals.
-* Event-based demand significantly contributes to overall revenue.
+* Customer demand is heavily influenced by gifting occasions and festivals.
+* Anniversary and Raksha Bandhan contribute significantly to revenue generation.
 
-### Sales Performance
+### Revenue Trends
 
-* Revenue exhibits noticeable seasonal fluctuations.
-* Certain months generate substantially higher sales volumes.
+* Revenue exhibits seasonal fluctuations throughout the year.
+* Certain months experience substantially higher sales activity.
 
-### Regional Trends
+### Regional Performance
 
-* Sales performance varies considerably across cities.
-* High-performing regions present opportunities for targeted expansion.
+* Sales are concentrated in a limited number of cities.
+* Expansion opportunities exist in underperforming regions.
 
-### Product Analysis
+### Product Strategy
 
-* Revenue concentration follows a Pareto distribution pattern.
-* Top-performing products account for a significant share of total sales.
+* Top-performing products contribute the majority of total revenue.
+* Product portfolio optimization can improve profitability and inventory efficiency.
 
-### Profitability
+### Operational Insights
 
-* Profit growth generally follows revenue growth.
-* Opportunities exist for improving margins through product and pricing optimization.
+* Average delivery time remains consistent at approximately 5.5 days.
+* Delivery performance can be monitored as a customer satisfaction metric.
 
 ---
 
 ## Business Impact
 
-This dashboard enables organizations to:
+This dashboard enables stakeholders to:
 
-* Make data-driven business decisions
-* Improve customer targeting strategies
-* Identify high-performing products and markets
-* Optimize inventory planning
-* Monitor business performance through KPIs
-* Support revenue and profit growth initiatives
-
----
-
-## Repository Structure
-
-```text
-Customer-Behaviour-Analysis/
-
-├── Data/
-├── Dashboard/
-│   └── Customer Behaviour Analysis.pbix
-├── Images/
-│   └── Dashboard.png
-├── fern and petals sales Analysis.docx
-├── README.md
-```
+* Monitor overall business performance
+* Understand customer purchasing behavior
+* Optimize product offerings
+* Improve marketing campaign targeting
+* Identify high-performing regions
+* Support strategic decision-making through data-driven insights
 
 ---
 
 ## Skills Demonstrated
 
-* Data Analysis
-* Business Intelligence
-* Data Visualization
-* Dashboard Development
-* KPI Design
-* DAX Calculations
-* Data Cleaning
 * Business Analytics
-* Reporting & Storytelling
+* Data Cleaning
+* Power BI Dashboard Development
+* DAX Calculations
+* KPI Design
+* Data Visualization
+* Sales Analytics
+* Customer Behavior Analysis
+* Business Intelligence Reporting
+* Data Storytelling
 
 ---
 
-
-
 ## Conclusion
 
-The Customer Behaviour Analysis Dashboard demonstrates the complete business intelligence workflow, from data preparation and transformation to visualization and insight generation. The project showcases the ability to convert raw business data into meaningful, actionable insights that support operational and strategic decision-making.
+The Ferns & Petals Business Analytics Dashboard demonstrates an end-to-end business intelligence workflow, transforming raw transactional data into actionable insights. The project showcases practical expertise in Excel, Power BI, KPI development, and business analytics while delivering meaningful recommendations for revenue growth, customer engagement, and operational improvement.
 
 ---
 
 ## Author
 
 **Abdul Rehman Ansari**
-Data Analyst | SQL | Power BI | Python | Excel
+Data Analyst | Python | SQL | Power BI | Excel
